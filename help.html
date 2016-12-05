@@ -2,15 +2,40 @@
 <html lang="en-US">
 <head>
   <title>Haltom Robotics Help Page</title>
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  body {
+    margin-left: 30px;
+    margin-top: 0px;
+    background-color: lightgrey;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50pt;
+    margin: 0px;
+  }
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    margin: 0px;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+  } 
+  </style>
 </head>
 <body>
-  <h1>Need Help?</h1>
-  <form action="help.php">
-  Team Number:<br>
-  <input type="number" min="1" max="999" name="teamID">
-  <br><br>
-  <input type="submit">
-  </form>
-  <hr>Submit a help request and a representitive will come to your pit.
+  <header>
+    <h1>Need Help?</h1>
+    <form action="help.php">
+      <h2>Team Number:</h2><br>
+      <input type="number" min="1" max="10000" name="teamID">
+      <br><br>
+      <input type="submit">
+    </form>
+  </header>
+  <hr>
+  <p>Submit a request and a representitive will come to your pit.</p>
 </body>
 </html>
+   
